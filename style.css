@@ -1,0 +1,85 @@
+body {
+background: url(patt.png); /*фон для всей страницы*/
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/*----------шапка------------------*/
+.header {
+    position: absolute; 
+    width: 1950px;
+    left: 0;
+    top: 0;
+    z-index: 50;
+    border-bottom: 1px solid white;
+}
+
+.header_conteiner {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background: rgba(214, 221, 234, 0.966);
+    opacity: 0.9;
+    border-bottom: 1px solid white;
+}
+
+.header_logo {
+    background: rgba(214, 221, 234, 0.966);/*цвет прозрачного фона*/
+    opacity: 0.9; /*прозрачность*/ 
+    margin: 0px 0px 0px 150px;
+}
+
+._conteiner {
+    max-width: 1560px;  
+}
+
+.header_menu {
+    margin: 0px 0px 0px 125px;  
+}
+
+.menu_list {
+    display: flex;
+    line-height: 50px;
+    font-size: 20px;
+    height: 50px;
+    text-decoration: none;
+    color: #2c71b8;
+    text-align: center;
+    font-family: 'Acumin Variable Concept';
+    list-style-type: none;
+    padding: 0px;
+}
+
+.menu_item {
+    margin: 0px 0px 0px 0px;
+}
+
+.menu_item:hover {
+    background-color: #2c71b8;
+    color: rgba(214, 221, 234, 0.966);
+}
+
+.menu_link {
+    line-height: 50px;
+    font-size: 20px;
+    height: 50px;
+    text-decoration: none;
+    color: #2c71b8;
+    text-align: center;
+    font-family: 'Acumin Variable Concept';
+    border-left: 2px solid #2c71b8;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.menu_link:hover {
+    background-color: #2c71b8;
+    color: rgba(214, 221, 234, 0.966);
+}
